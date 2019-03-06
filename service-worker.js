@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cgriffit/QuoteMachine/precache-manifest.d9269f18e79247097048aa03364d3c60.js"
+  "/QuoteMachine/precache-manifest.a958e96a62363a7c8e56ab2ee04aa95a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cgriffit/QuoteMachine/index.html", {
+workbox.routing.registerNavigationRoute("/QuoteMachine/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
